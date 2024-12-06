@@ -1,19 +1,13 @@
-# Aprenda + ENEM - TCC
+# Aprenda + ENEM
 
-Este é o documento do Aprenda+ ENEM do TCC do curso técnico de Informática para Internet
+Projeto construído no intuito de auxiliar os estudantes a passar no Exame do ENEM por meio de uma metodologia gamificada.
 
 Componentes:
 
-Débora Contreiras Neves
-
 Érica Paixão Gois
-
-Julia Souza do Nascimento
-
-Rebeca Contreiras Neves
 
 Rodrigo Pereira Faria
 
 - Tecnologias Utilizadas:
 
-#HTML #CSS #JS 
+#HTML #CSS #JS #PHP
