@@ -1,0 +1,10 @@
+article.auth-container form.form-container{
+    display: grid;
+    grid-template-columns: 45.63106796116505% 1fr;
+    align-items: center;
+}
+
+form.form-container fieldset.input-group{
+    gap: 1.2rem;
+    
+}

@@ -1,0 +1,19 @@
+:root{
+    --selected-exact-science: #6C00A0;
+}
+
+.exact-science{
+    background-color: var(--main-purple);
+}
+
+.human-science{
+    background-color: var(--main-orange);
+}
+
+.exact-science.selected{
+    background-color: var(--selected-exact-science);
+}
+
+li.selected .subject-menu-link{
+    text-decoration: underline;
+}

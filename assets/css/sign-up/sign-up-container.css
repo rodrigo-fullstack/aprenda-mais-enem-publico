@@ -1,0 +1,7 @@
+article.sign-up-container {
+    background-color: var(--main-purple);
+    border-radius: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.829);
+    overflow: hidden;
+    width: 650px;
+  }

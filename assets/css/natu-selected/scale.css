@@ -1,0 +1,14 @@
+.data-container{
+    transform: scale(0.8);
+    transform-origin: top center;
+}
+
+.subject-menu-list{
+    transform: scale(0.8);
+    transform-origin: top center;
+}
+
+.subject-container{
+    transform: scale(0.8);
+    transform-origin: top center;
+}

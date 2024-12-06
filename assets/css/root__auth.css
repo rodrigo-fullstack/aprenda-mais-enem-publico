@@ -1,0 +1,18 @@
+/* Extensão do root para cadastro e login*/
+
+body{
+    gap: 0;
+}
+
+p,a{
+    font-family: Jost;
+}
+
+a.nav-link{
+    color: white;
+}
+
+fieldset{
+    border: none;
+    outline: none;
+}

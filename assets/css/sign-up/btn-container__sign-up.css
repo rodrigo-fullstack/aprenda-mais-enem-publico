@@ -1,0 +1,13 @@
+.btn-container{
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+
+.btn-container > :nth-child(1n){
+    flex: 1;
+}
+
+.btn.return{
+    background-color: var(--dark-purple);
+}

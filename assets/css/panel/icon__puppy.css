@@ -1,0 +1,8 @@
+.icon-container > .icon.puppy{
+    width: 75%;
+}
+
+.icon-container > .icon.puppy.math{
+    width: 100%;
+    margin-bottom: -200px;
+}

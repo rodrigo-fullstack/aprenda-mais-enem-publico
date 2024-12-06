@@ -1,0 +1,16 @@
+section.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+section.text-container .title{
+    line-height: 34px;
+    text-align: left;
+}
+
+section.text-container .text{
+    line-height: 25px;
+    text-align: left;
+
+}

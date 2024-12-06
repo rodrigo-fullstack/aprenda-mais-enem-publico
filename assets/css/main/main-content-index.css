@@ -1,0 +1,8 @@
+/* Maior prioridade de estilização */
+main.main-content{
+    margin-top: 123px;
+    display: flex;
+    flex-direction: column;
+    gap: 60.32px;
+}
+

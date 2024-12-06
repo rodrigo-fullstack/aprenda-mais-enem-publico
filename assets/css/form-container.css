@@ -1,0 +1,17 @@
+article.auth-container > form.form-container {
+    background-color: var(--main-purple);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+form.form-container fieldset.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+
+/* Seleciona todos os elementos que estão dentro de form-container */
+

@@ -1,0 +1,4 @@
+section.alternatives-container.exact-science li.alternative.selected::after{
+    background-color: rgba(145, 66, 235, 0.5);
+
+}

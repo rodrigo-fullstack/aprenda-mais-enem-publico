@@ -1,0 +1,21 @@
+article.subjects-container .subject-container .icon-container{
+    align-items: start;
+    padding: 19px;
+    width: 203px;
+    height: 171px;
+    border-radius: 27px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.data-container .icon-container{
+    width: fit-content;
+}

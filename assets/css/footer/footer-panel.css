@@ -1,0 +1,31 @@
+footer.footer-panel{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-purple);
+    color: white;
+    margin: 0px;
+    gap: 0px;
+    padding: 30px 41px 1px 41px;
+}
+
+section.footer-section-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
+}
+
+section.footer-section__internal-sect-panel .footer-section__internal-sect-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
+}
+
+section.footer-section-panel ul.footer-section__list-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
+}
+
+section.footer-section-panel:has(.footer-section__internal-sect-panel){
+    gap: 40.19px;
+}

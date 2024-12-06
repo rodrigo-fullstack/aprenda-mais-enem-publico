@@ -1,0 +1,24 @@
+header.nav-header{
+    background-color: var(--main-purple);
+    padding: 9.5px 5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a.nav-link{
+    color: white;
+}
+
+.nav-item-container{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}

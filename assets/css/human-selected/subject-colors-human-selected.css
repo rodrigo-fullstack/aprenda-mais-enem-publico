@@ -1,0 +1,15 @@
+nav.subject-menu li.subject-menu-item.fifth.human-science {
+    background-color: #BD4F04;
+}
+
+.exact-science{
+    background-color: var(--main-purple);
+}
+
+.human-science{
+    background-color: var(--main-orange);
+}
+
+nav.subject-menu li.subject-menu-item.fifth.human-science a.subject-menu-link {
+    text-decoration: underline;
+}

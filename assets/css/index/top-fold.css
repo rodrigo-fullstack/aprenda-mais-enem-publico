@@ -1,0 +1,5 @@
+article.top-fold{
+    justify-content: space-between;
+    /* Verificar por que está desalinhado com os outros elementos articles */
+}
+

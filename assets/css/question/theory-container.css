@@ -1,0 +1,23 @@
+article.theory-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 45px;
+}
+
+article.theory-container > .theory-paragraph-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 600px;
+    padding: 30px 25px;
+    border-radius: 50px;
+}
+
+article.theory-container > .theory-paragraph-container > .theory-paragraph{
+    text-align: justify;
+}
+
+

@@ -1,0 +1,11 @@
+/* Definição de cores através de classes
+Muito utilizado com spans
+*/
+
+span.main-purple{
+    color: var(--main-purple);
+}
+
+span.main-orange{
+    color: var(--main-orange);
+}

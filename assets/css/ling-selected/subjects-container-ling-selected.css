@@ -1,0 +1,19 @@
+article.subjects-container{
+    display: flex;
+    flex-direction: column;
+}
+
+article.subjects-container .subject-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+}
+
+article.subjects-container .subject-container .subject-title{
+    width: 409px;
+    color: white;
+    background-color: var(--main-orange);
+    border-radius: 17px;
+    padding-left: 10px;
+}
+

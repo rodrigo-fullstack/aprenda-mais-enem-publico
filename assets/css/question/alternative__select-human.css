@@ -1,0 +1,4 @@
+section.alternatives-container.human-science li.alternative.selected::after{
+    background-color: rgba(224, 96, 9, 0.5);
+    
+}

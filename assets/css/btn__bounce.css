@@ -1,0 +1,11 @@
+.bounce{
+    transition: 500ms;
+}
+
+.bounce:hover {
+    transform: scale(1.1);
+}
+
+.bounce:active{
+    transform: scale(1.2);
+}

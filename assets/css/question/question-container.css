@@ -1,0 +1,26 @@
+article.question-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 45px;
+    gap: 54px;
+}
+
+article.question-container > .question-paragraph-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 30px 25px;
+    border-radius: 50px;
+}
+
+article.question-container > .question-paragraph-container > .question-paragraph{
+    text-align: justify;
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: bold;
+}

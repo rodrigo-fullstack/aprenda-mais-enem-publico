@@ -1,0 +1,18 @@
+.data-container--collapsed{
+    padding-right: 260px;
+    transition: padding 0.3s ease;
+}
+.matters-container--collapsed {
+    padding-right: 500px;
+    transition: padding 0.3s ease;
+}
+
+.data-container--expanded{
+    padding-left: 0px;
+    transition: padding 0.3s ease;
+}
+
+.matters-container--expanded {
+    padding-left: 325px;
+    transition: padding 0.3s ease;
+}

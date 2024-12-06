@@ -1,0 +1,15 @@
+article.cta-container > .text-container{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    /* Alinha ao centro dos elementos do grid */
+    align-self: center;
+}
+article.cta-container > .text-container .text{
+    margin: 0;
+}
+article.cta-container > .text-container > .text-container-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}

@@ -1,0 +1,42 @@
+.side-box-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-radius: 30px;
+    width: 270px;
+    height: 405px;
+    background-color: var(--main-purple);
+    opacity: 0;
+    transition: 5.10s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.side-box-panel[style*="display: block"] {
+    transition: 5.10s ease;
+    opacity: 1;
+}
+
+.panel-container {
+    position: relative;
+}
+
+.side-box-panel .menu-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-list img{
+    max-width: 153%;
+    height: auto;
+}

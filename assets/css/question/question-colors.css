@@ -1,0 +1,42 @@
+:root{
+    --btn-return: #9E5D2F;
+    --progress-bar-full: #E0B495;
+    --progress-bar-actual: #E06009;
+    --border-theory-paragraph: rgb(116, 62, 158, 0.55);
+    --border-human-paragraph: rgba(158, 110, 62, 0.55);
+    --alternative-item: #EB7E31;
+}
+
+.return{
+    background-color: var(--btn-return);
+}
+
+header.progress-bar-container .progress-bar-full{
+    background-color: var(--progress-bar-full);
+}
+
+header.progress-bar-container .progress-bar-actual{
+    background-color: var(--progress-bar-actual);
+}
+article.theory-container.human-science > .theory-paragraph-container,
+article.question-container.human-science > .question-paragraph-container{
+    box-shadow: 0px 0px 0px 5px var(--border-human-paragraph);   
+    
+}
+
+article.theory-container.exact-science > .theory-paragraph-container, article.question-container.exact-science > .question-paragraph-container{
+    box-shadow: 0px 0px 0px 5px var(--border-theory-paragraph);   
+}
+
+footer.footer-question .btn{
+    background-color: var(--main-purple);
+}
+
+section.alternatives-container.exact-science .alternative-item{
+    background-color: var(--alternative-item);
+}
+
+section.alternatives-container.human-science .alternative-item{
+    background-color: var(--main-purple);
+
+}

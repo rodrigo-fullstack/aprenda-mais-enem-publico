@@ -1,0 +1,7 @@
+.img__feat{
+    width: 300px;
+}
+
+.img__feat.effective{
+    width: 200px;
+}

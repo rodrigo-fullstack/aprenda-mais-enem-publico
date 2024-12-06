@@ -1,0 +1,31 @@
+.scroll-horizontal-container {
+    display: flex;
+    gap: 39px;
+    border: 10px solid var(--dark-orange);
+    border-radius: 30px;
+    padding: 60px 25px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.scroll-horizontal-container > * {
+    flex: 0 0 288px;
+}
+
+.scroll-horizontal-container::-webkit-scrollbar {
+    height: 15px; /* Altura da barra */
+}
+
+.scroll-horizontal-container::-webkit-scrollbar-track {
+    background: #e0e0e000; /* Cor do fundo*/
+    border-radius: 100px;
+}
+
+.scroll-horizontal-container::-webkit-scrollbar-thumb {
+    background-color: #e05f09b7; /* (parte que desliza) */
+    border-radius: 100px;
+}
+
+.scroll-horizontal-container::-webkit-scrollbar-thumb:hover {
+    background-color: #b9500ac4; /* (ao passar o mouse) */
+}

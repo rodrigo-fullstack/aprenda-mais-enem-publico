@@ -1,0 +1,22 @@
+.shadow-01{
+    box-shadow: 0px 4px 11.6px 5px rgba(0,0,0, 0.38);
+}
+
+.shadow-img{
+    filter: drop-shadow(0px 4px 11.6px rgba(0,0,0, 0.38));
+} 
+
+
+
+/* Não é possível utilizar after em imgs pois não possui tag de fechamento
+
+.shadow-img::after{
+    content: '';
+    display: block;
+    width: 110%;
+    height: 110%;
+    background-color: red;
+    padding: 100px;
+    z-index: 100;
+    position: absolute;
+} */

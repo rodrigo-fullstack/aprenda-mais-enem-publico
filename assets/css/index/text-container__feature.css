@@ -1,0 +1,25 @@
+article.feature-container .text-container{
+    width: 45%;
+    align-items: center;
+    gap: 22px;
+}
+
+article.feature-container .text-container > .title-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+article.feature-container .text-container .title-container{
+    display: flex;
+    padding: 8px 20px;
+    background-color: var(--main-orange);
+    align-items: center;
+    gap: 36.68px;
+    color: white;
+}
+
+article.feature-container .text-container .text{
+    color: white;
+    margin-bottom: 0;
+    width: 100%;
+}

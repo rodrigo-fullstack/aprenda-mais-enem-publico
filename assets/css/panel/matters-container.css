@@ -1,0 +1,16 @@
+.matters-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 30px;
+    padding: 0px 280px;
+    transition: padding 0.3s ease;
+}
+
+.matters-container {
+    margin: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,6 @@
+.line{
+    background-color: var(--main-orange);
+    height: 3px;
+    width: 100%;
+    border: none;
+}

@@ -1,0 +1,12 @@
+.auth-container__footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.auth-container__footer a {
+  color: #ffffff;
+  text-decoration: none;
+}

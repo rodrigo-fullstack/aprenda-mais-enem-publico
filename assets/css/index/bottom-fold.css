@@ -1,0 +1,8 @@
+.bottom-fold{
+    background-color: var(--main-purple);
+    flex-direction: column;
+    padding: 42px 106px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 11.6px 5px rgba(0,0,0, 0.38);
+    gap: 3rem;
+}

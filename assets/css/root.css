@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilo básico CSS */
+/* Deve ser utilizado em todos os documentos */
+
+:root{
+    --main-purple: #9142EB;
+    --main-orange: #E06009;
+    --bright-purple: #BF72FF;
+    --dark-purple-weak: #743E9E;
+    --bright-orange: #F0B800;
+    --dark-purple: #290A38;
+    --dark-orange-weak: #B06700;
+    --dark-orange: #291800;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-family: Inter;
+}
+
+h1{
+    font-family: Jost;
+    font-size: 30px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+nav ul{
+    list-style-type: none;
+
+}
+
+/* Seleciona todos os elementos filhos de body */
+/* Supera estilização de classes */
+body > :nth-child(1n){
+    padding: 0px 5rem;
+}
+
+a.nav-link{
+    color: white;
+}
+
+a.nav-link:hover{
+    text-decoration: underline!important;
+}
+/* .main-content{
+    margin-top: 100px;
+    padding: 0px 2.813rem;
+} */

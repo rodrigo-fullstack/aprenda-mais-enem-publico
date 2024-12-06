@@ -1,0 +1,16 @@
+/* Mudando para input-row com display flex no fieldset.input-group {
+    margin-bottom: 15px;
+  } */
+
+/* Estilizando inputs que estão no input-group da tag fieldset */
+fieldset.input-group > .input-row > .input-text {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Jost;
+    outline: 0;
+    border-radius: 10px;
+}

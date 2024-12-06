@@ -1,0 +1,4 @@
+article.art.top-fold > .text-container > .btn-container{
+    flex-direction: column;
+    gap: 31px;
+}

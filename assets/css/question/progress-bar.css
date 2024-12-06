@@ -1,0 +1,24 @@
+header.progress-bar-container{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+}
+
+header.progress-bar-container .progress-bar{
+    flex: 1;
+    height: 36px;
+}
+
+header.progress-bar-container .progress-bar-full{
+    height: 100%;
+    border-radius: 50px;
+}
+
+header.progress-bar-container .progress-bar-actual{
+    width: 61px;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}

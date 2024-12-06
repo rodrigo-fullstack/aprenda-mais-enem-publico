@@ -1,0 +1,21 @@
+/* Método de pagamento container do sign-up */
+
+article.auth-container section.payment-method-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+article.auth-container section.payment-method-container > div.payment-method{
+    background-color: var(--main-orange);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 7px;
+    border-radius: 17px;
+    color: white;
+}
+
+a.payment-method-link{
+    color: white;
+}

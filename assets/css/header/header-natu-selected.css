@@ -1,0 +1,27 @@
+/* Estilização e Posicionamento do Header */
+
+/* Maior prioridade de estilização */
+header.nav-header{
+    background-color: var(--main-purple);
+    padding: 12.125px 5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: block;
+}
+
+header.nav-header nav.nav-bar{
+    align-self: center;
+}
+
+header.nav-header ul.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.nav-header div.nav-item-container{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}

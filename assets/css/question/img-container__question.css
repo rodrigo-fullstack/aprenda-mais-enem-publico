@@ -1,0 +1,10 @@
+article.theory-container > div.img-container{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+article.theory-container > div.img-container > .img{
+    width: 100%;
+}

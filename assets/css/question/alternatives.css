@@ -1,0 +1,30 @@
+section.alternatives-container{
+    padding-left:25px ;
+}
+
+section.alternatives-container > ol.alternative-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 28.36px;
+}
+
+section.alternatives-container .alternative{
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+section.alternatives-container .alternative-item{
+    margin-right: 14px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 11px;
+    border-radius: 100px;
+    width: 42px;
+    height: 45.23px;
+}
+

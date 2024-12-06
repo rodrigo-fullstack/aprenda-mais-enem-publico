@@ -1,0 +1,6 @@
+.main-content-panel{
+    margin: 90px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 60.32px;
+}

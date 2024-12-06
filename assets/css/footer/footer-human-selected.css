@@ -1,0 +1,29 @@
+footer.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-purple);
+    color: white;
+    padding: 41px 5rem;
+}
+
+section.footer-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
+}
+
+section.footer-section .footer-section__internal-sect{
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
+}
+
+section.footer-section ul.footer-section__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
+}
+
+section.footer-section:has(.footer-section__internal-sect){
+    gap: 40.19px;
+}

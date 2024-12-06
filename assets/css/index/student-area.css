@@ -1,0 +1,9 @@
+/* Corrigir problema do padding desalinhar com os elementos */
+
+.student-area{
+    background-color: gray;
+    padding: 0.5rem;
+    background-color: var(--main-orange);
+    font-weight: bold;
+
+}

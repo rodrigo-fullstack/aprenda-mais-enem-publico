@@ -1,0 +1,14 @@
+.btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    padding: 20px;
+}   
+
+.btn-icon{
+    width: 35px
+}
+
+footer.footer-question .btn-icon:nth-child(1){
+    width: 40px;
+}

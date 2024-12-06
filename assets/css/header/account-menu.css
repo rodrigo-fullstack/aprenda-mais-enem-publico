@@ -1,0 +1,40 @@
+/* Position relative para posicionamento ocorrer com relação ao header, e não à tela */
+.nav-item.account-item{
+    position: relative;
+}
+
+.account-btn{
+    cursor: pointer;
+}
+
+nav.account-menu-container{
+    background-color: #E06009;
+    color: white;
+    box-shadow: 0px 0px 0px 2px var(--dark-orange);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20vw;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+nav.account-menu-container ul.account-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+    list-style: none;
+}
+
+nav.account-menu-container ul.account-menu-list hr{
+    width: 50%;
+    background: white;
+    border-top: 1.25px solid white;
+    border-bottom: 1.25px solid white;
+}
+
+nav.account-menu-container .account-btn{
+    /* Position absolute somente se aplica quando coloca as propriedades top, left, right ou bottom */
+    position: absolute;
+    top: 0;
+    right: 0;
+}

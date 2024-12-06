@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <link rel="stylesheet" href="../../shadow.css">
+
+    <style>
+
+        body{
+            width: 100%;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+        }
+        nav.account-menu-container{
+            background-color: #E06009;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 20vw;
+            padding: 1rem;
+            position: relative;
+        }
+
+        nav.account-menu-container ul.account-menu-list{
+            display: flex;
+            flex-direction: column;
+            gap: 12.5px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav.account-menu-container .account-btn{
+            /* Position absolute somente se aplica quando coloca as propriedades top, left, right ou bottom */
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        li.nav-item{
+            position: absolute;
+            right: 0;
+            display: inline-flex;
+            background-color: blue;
+        }
+
+        nav.hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <li class="nav-item">
+        <div class="icon-container account-btn">
+            <img src="../../../img/mdi--account 2.svg" alt="" class="">
+        </div>
+
+        <nav class="account-menu-container hidden">
+            <div class="icon-container account-btn">
+                <img src="../../../img/mdi--account 2.svg" alt="" class="shadow-img">
+            </div>
+
+            <ul class="account-menu-list">
+
+                <li class="account-menu-item">
+                    <a href="" class="nav-link account-link">Minha Conta</a>
+                </li>
+                
+                <li class="account-menu-item">
+                    <a href="" class="nav-link account-link">Personalização</a>
+                </li>
+                
+                <li class="account-menu-item">
+                    <a href="" class="nav-link account-link">Configurações</a>
+                </li>
+                
+                <li class="account-menu-item">
+                    <a href="" class="nav-link account-link">Seja Premium!</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </li>
+
+    <script src="account-btn.js"></script>
+</body>
+</html>

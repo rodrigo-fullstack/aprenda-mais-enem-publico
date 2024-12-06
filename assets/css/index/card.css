@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: var(--main-purple);
+    width: 200px;
+    height: 201px;
+    padding-bottom: 36.25px;
+    border-radius: 21px;
+    color: white;
+}
+
+.card > .type-subscription-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card .type-subscription-desc{
+    width: fit-content;
+    background-color: var(--main-orange);
+    padding: 4px 6px;
+}
+
+.card > .price{
+    margin: 0px 15px;
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.card > .elements{
+    margin: 0px 1.8rem;
+}

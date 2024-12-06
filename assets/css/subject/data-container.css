@@ -1,0 +1,25 @@
+article.data-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+article.data-container .coin-container, article.data-container .heart-container{
+    display: flex;
+    
+}
+
+article.data-container .exam-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 608px;
+    background-color: var(--dark-purple);
+    color: white;
+    padding: 4px 1rem;
+    border-radius: 30px;
+}
+article.data-container .exam-container .exam-title{
+    font-weight: normal;
+}

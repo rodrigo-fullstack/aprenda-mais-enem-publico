@@ -1,0 +1,15 @@
+/* Usando after para evitar mudar espaçamento dos elementos */
+section.alternatives-container .alternative.selected::after{
+    content: '';
+    width: calc(100% - 20px);
+    height: 100%;
+    /* Posicionado o elemento dentro do outro através do position absolute, left -10px e top -10px */
+    position: absolute;
+    padding: 10px;
+    
+    /* Essa redução é precisa ser feita para evitar desalinhamento do elemento */
+    left: -10px;
+    top: -10px;
+    z-index: -1;
+
+}

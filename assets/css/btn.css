@@ -1,0 +1,20 @@
+.btn{
+    background-color: black;
+    color: white;
+    width: 222px;
+    padding: 6px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-family: Jost;
+    font-weight: bold;
+}
+
+.btn.login{
+    background-color: var(--main-purple );
+}
+
+.btn.sign-up{
+    background-color: var(--main-orange);
+}

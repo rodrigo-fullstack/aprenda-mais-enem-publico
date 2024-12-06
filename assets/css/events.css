@@ -1,0 +1,8 @@
+.hidden{
+    display: none;
+}
+
+/* Para evitar movimento do menu */
+.hidden-opct{
+    opacity: 0%;
+}
